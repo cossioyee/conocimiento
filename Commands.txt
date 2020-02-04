@@ -9,9 +9,19 @@ comandos docker
 - docker inspect
 - docker logs {name}
 - docker rm {name}
+- docker rm -f {name}
 - docker run -it ubuntu
 	-uname -a
 	-cat /etc/lsb-release
 - docker run ubuntu tail -f /dev/null
 - docker exec -it name bash
 	ps -fea
+- guardar data de los dockers con:
+ 	- docker volumens: todos se guardan en /var
+	- docker volume prune -- borra volumenes que no se usan
+- docker image ls
+- docker build -t {SO}:{tag} path
+- docker push {so}:{tag}
+- docker pull "
+- docker tag viejo a nuevo 
+	
